@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Landing from '../views/LandingView.vue'
 import Main from '../views/MainView.vue'
 import PageNotFound from '../views/PageNotFound.vue'
 
@@ -9,12 +8,17 @@ Vue.use(VueRouter)
 const routes = [
     {
         path: '/',
-        name: 'Landing',
-        component: Landing
+        name: 'Main',
+        component: Main
     },
     {
-        path: '/main',
-        name: 'Main',
+        path: '/about',
+        name: 'About',
+        component: Main
+    },
+    {
+        path: '/contact',
+        name: 'Contact',
         component: Main
     },
     {

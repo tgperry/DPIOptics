@@ -1,8 +1,8 @@
 <template>
     <div class="main-view">
         <vue-headful
-            title="Thomas Perry"
-            description="This is the personal website of Thomas Perry"
+            title="DPIOptics"
+            description="DPIOptics provides optical engineering consulting backed by over forty years of industry experience."
         />
         <Main />
     </div>
