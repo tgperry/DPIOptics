@@ -1,7 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Main from '../views/MainView.vue'
-import PageNotFound from '../views/PageNotFound.vue'
+import Main from '@/views/MainView.vue'
+import About from '@/views/AboutView.vue'
+import Contact from '@/views/ContactView.vue'
+import PageNotFound from '@/views/PageNotFound.vue'
 
 Vue.use(VueRouter)
 
@@ -14,12 +16,12 @@ const routes = [
     {
         path: '/about',
         name: 'About',
-        component: Main
+        component: About
     },
     {
         path: '/contact',
         name: 'Contact',
-        component: Main
+        component: Contact
     },
     {
         path: '*',

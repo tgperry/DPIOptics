@@ -63,21 +63,21 @@ li a {
 }
 
 li a::after {
-    display: block;
-    background-color: red;
-    width: 100%;
-    left: 0;
-    transform-origin: bottom left;
-    height: 5px;
-    position: relative;
-    bottom: 0;
-    transform: scaleX(0);
-    transition: .3s ease;
-    content: "";
+  display: block;
+  background-color: red;
+  width: 100%;
+  left: 0;
+  transform-origin: bottom left;
+  height: 5px;
+  position: relative;
+  bottom: 2px;
+  transform: scaleX(0);
+  transition: .3s ease;
+  content: "";
 }
 
 li a:hover::after {
-    transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 li a:hover {
@@ -87,5 +87,4 @@ li a:hover {
 li a:active {
   font-weight: bold;
 }
-
 </style>

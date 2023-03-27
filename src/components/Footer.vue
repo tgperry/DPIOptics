@@ -2,6 +2,7 @@
     <footer class="footer">
         <p class="footer-text">&copy; 2021 DPIOptics LLC, All Rights Reserved</p>
         <a target="_blank" href="https://www.linkedin.com/in/david-perry-3b82641/" class="fa fa-linkedin"></a>
+        <p class="footer-phone">+1 206 920 8930</p>
     </footer>
 </template>
 
@@ -20,7 +21,7 @@ export default {
 <style scoped>
 .footer {
     width: 100%;
-    background-color: gray;
+    background-color: #efefef;
     height: 75px;
     position: absolute;
     bottom: 0;
@@ -28,7 +29,7 @@ export default {
 }
 
 .footer-text {
-    color: white;
+    color: gray;
     font-size: 16px;
     font-weight: lighter;
     text-align: left;
@@ -43,14 +44,24 @@ export default {
     border-radius: 50%;
     text-decoration: none;
     float: right;
-    background: #d7d7d7;
+    background: #cccccc;
     color: white;
-    margin-right: 5%;
+    margin-right: 4%;
     margin-top: 12px;
     height: 18px;
 }
 
 .fa:hover {
     opacity: 0.7;
+}
+
+.footer-phone {
+    color: gray;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: left;
+    padding: 15px 0px 0px 30px;
+    float: right;
+    margin-right: 2%;
 }
 </style>
